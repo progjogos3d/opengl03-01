@@ -104,7 +104,8 @@ public class ArrayBuffer {
     /**
      * Realiza o comando de desenho considerando todos os elementos desse buffer.
      */
-    public void draw() {
+    public ArrayBuffer draw() {
         glDrawArrays(GL_TRIANGLES, 0, getCount());
+        return this;
     }
 }
