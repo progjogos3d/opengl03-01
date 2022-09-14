@@ -43,7 +43,7 @@ public class RotatingSquare implements Scene {
 		//------------------------------
 		//Carga/Compilação dos shaders
 		//------------------------------
-		shader = Shader.loadProgram("/br/pucpr/resource/basic");
+		shader = Shader.loadProgram("basic");
 
 		//------------------
 		//Criação da malha
